@@ -1,0 +1,8 @@
+server:
+  port: ${SERVER_PORT}
+
+spring:
+  data:
+    mongodb:
+      uri: ${DATABASE_HOST}
+      database: ${DATABASE_NAME}
