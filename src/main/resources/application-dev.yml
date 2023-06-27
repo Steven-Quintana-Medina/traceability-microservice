@@ -4,5 +4,5 @@ server:
 spring:
   data:
     mongodb:
-      uri: ${DATABASE_HOST}
+      uri: ${DATABASE_URI}
       database: ${DATABASE_NAME}
