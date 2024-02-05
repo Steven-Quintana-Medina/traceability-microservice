@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-<h3 align="center">TRACEABILITY MICROSERVICE</h3>
+<h3 align="center">TRACEABILITY MICROSERVICE FOR PLAZOLETA SERVICE</h3>
 
 </div>
 
@@ -11,11 +11,16 @@
 * ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
 * ![MongoDB](https://img.shields.io/badge/MongoDB-green?style=for-the-badge&logo=mongodb&logoColor=white)
 
+## About the Project
+
+This is a microservice in charge of showing the status changes of customer orders
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these steps.
+To view how the project works go to https://traceability-microservice-small-square.onrender.com/swagger-ui/index.html
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -28,29 +33,19 @@ To get a local copy up and running follow these steps.
 * Postman [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
 
 ### Installation
-
 1. Clone the repository
 2. Open project
-3. Update environment variables
-   <br>
-   3.1. Edit configurations<br>
-   ![#](src/main/resources/img/stepOne.png)
-   <br>
-   3.2. SERVER_PORT=;DATABASE_HOST=;DATABASE_NAME=;
-   <br>
-   copy this string into the "environment variables" field<br>
-   ![#](src/main/resources/img/stepTwo.png)
-   <br>
-   3.3 Writes the respective values of each environment variable
-   <br>
-   ![img.png](src/main/resources/img/stepThree.png)
+3. Create a new database in MongoDB
+4. update environment variables
+   - DATABASE_URI=;
+   - DATABASE_NAME=;
+   - SERVER_PORT= 8093;
+
 <!-- USAGE -->
 ## Usage
-
-1. Right-click the class PowerUpTraceabilityMicroserviceApplication and choose Run
-2. Open [http://localhost:8094/swagger-ui/index.html](http://localhost:8094/swagger-ui/index.html) in your web browser
+1. Right-click the class PowerUpApplication and choose Run
+2. Open [http://localhost:8093/swagger-ui/index.html](http://localhost:8093/swagger-ui/index.html) in your web browser
 
 <!-- ROADMAP -->
 ## Tests
-
 - Right-click the test folder and choose Run tests with coverage
